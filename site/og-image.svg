@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1B2A4A"/>
+
+  <!-- Paper texture suggestion (subtle lines) -->
+  <rect width="1200" height="630" fill="url(#grain)" opacity="0.04"/>
+
+  <!-- Amber accent bar left -->
+  <rect x="80" y="80" width="4" height="470" fill="#C8972A"/>
+
+  <!-- Main title -->
+  <text x="120" y="200"
+        font-family="Georgia, serif"
+        font-size="64"
+        fill="#F0EAD6"
+        font-style="italic">La Teoría del Puente</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="240" x2="560" y2="240" stroke="#C8972A" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Tagline -->
+  <text x="120" y="300"
+        font-family="Georgia, serif"
+        font-size="28"
+        fill="#C8972A">Arquitecto de comprensión</text>
+
+  <!-- Body text -->
+  <text x="120" y="370"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#F0EAD6"
+        opacity="0.75">No transformamos lo que sabes.</text>
+  <text x="120" y="404"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#F0EAD6"
+        opacity="0.75">Transformamos la distancia entre lo que sabes</text>
+  <text x="120" y="438"
+        font-family="Georgia, serif"
+        font-size="22"
+        fill="#F0EAD6"
+        opacity="0.75">y lo que los demás comprenden.</text>
+
+  <!-- Domain -->
+  <text x="120" y="540"
+        font-family="Courier New, monospace"
+        font-size="18"
+        fill="#C8972A"
+        letter-spacing="2"
+        opacity="0.8">lateoriadelpuente.com</text>
+
+  <!-- Nombre -->
+  <text x="120" y="574"
+        font-family="Georgia, serif"
+        font-size="18"
+        fill="#F0EAD6"
+        opacity="0.5">Hernán García Valdeavellano · Lima, Perú</text>
+
+  <!-- Bridge icon right side -->
+  <g transform="translate(780, 215)">
+    <line x1="20"  y1="200" x2="20"  y2="80"  stroke="#C8972A" stroke-width="8" stroke-linecap="round"/>
+    <line x1="300" y1="200" x2="300" y2="80"  stroke="#C8972A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M20 110 Q160 20 300 110" fill="none" stroke="#F0EAD6" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="0"   y1="200" x2="320" y2="200" stroke="#C8972A" stroke-width="6" stroke-linecap="round"/>
+    <!-- Hanging cables -->
+    <line x1="20"  y1="110" x2="20"  y2="200" stroke="#F0EAD6" stroke-width="2" opacity="0.3"/>
+    <line x1="95"  y1="72"  x2="95"  y2="200" stroke="#F0EAD6" stroke-width="2" opacity="0.3"/>
+    <line x1="160" y1="58"  x2="160" y2="200" stroke="#F0EAD6" stroke-width="2" opacity="0.3"/>
+    <line x1="225" y1="72"  x2="225" y2="200" stroke="#F0EAD6" stroke-width="2" opacity="0.3"/>
+    <line x1="300" y1="110" x2="300" y2="200" stroke="#F0EAD6" stroke-width="2" opacity="0.3"/>
+  </g>
+</svg>
